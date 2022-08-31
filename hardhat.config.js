@@ -4,7 +4,7 @@ require("@nomiclabs/hardhat-etherscan")
 require("./tasks/block-number")
 require("hardhat-gas-reporter")
 require("solidity-coverage")
-
+require("dotenv").config()
 /** @type import('hardhat/config').HardhatUserConfig */
 
 const GOERLI_RPC_URL = process.env.GOERLI_RPC_URL
